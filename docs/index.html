@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>FIRES: Fast Imaging and 3D Reconstruction of Archaeological Sherds </title>
+	
+	<!-- Meta tags for Zotero grab citation -->
+	<meta name="citation_title" content="FIRES: Fast Imaging and 3D Reconstruction of Archaeological Sherds">
+	<meta name="citation_author" content="Wang, Jiepeng">
+	<meta name="citation_author" content="Zhang, Congyi">
+	<meta name="citation_author" content="Wang, Peng">
+	<meta name="citation_author" content="Li, Xin">
+	<meta name="citation_author" content="Cobb, Peter J.">
+	<meta name="citation_author" content="Theobalt, Christian">
+	<meta name="citation_author" content="Wang, Wenping">
+	<meta name="citation_publication_date" content="2022">
+	<meta name="citation_conference_title" content="arxiv">
+	<meta name="citation_pdf_url" content="https:">
+
+	<meta name="robots" content="index,follow">
+	<meta name="description" content="
+            Sherds, as the most common artifacts uncovered during archaeological excavations, carry rich information about past human societies so need to be accurately reconstructed and recorded digitally for analysis and preservation. Often hundreds of fragments are uncovered in a day at an archaeological excavation site, far beyond the scanning capacity of existing imaging systems. Hence, there is high demand for a desirable image acquisition system capable of imaging hundreds of fragments per day. In response to this demand, we developed a new system, dubbed FIRES, for Fast Imaging and 3D REconstruction of Sherds. The FIRES system consists of two main components. The first is an optimally designed fast image acquisition device capable of capturing over 700 sherds per day (in 8 working hours) in actual tests at an excavation site, which is one order-of-magnitude faster than existing systems. The second component is an automatic pipeline for 3D reconstruction of the sherds from the images captured by the imaging acquisition system, achieving reconstruction accuracy of 0.16𝑚𝑚. The pipeline includes a novel batch matching algorithm that matches partial 3D scans of the front and back sides of the sherds and a new ICP-type method that registers the front and back sides sharing very narrow overlapping regions. Extensive validation in labs and testing in excavation sites demonstrated that our system provides the first fast, accurate, portal, and cost-effective solution for the task of imaging and 3D reconstruction of sherds in archaeological excavations.				
+        ">
+	<link rel="author" href="https://jiepengwang.github.io/">
+
+	<!-- Fonts and stuff -->
+	<link href="./images/css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="./images/project.css" media="screen">
+	<link rel="stylesheet" type="text/css" media="screen" href="./images/iconize.css">
+	<script src="./images/prettify.js.download"></script>
+</head>
+
+<body>
+	<div id="content">
+		<div id="content-inner">
+			<div class="section logos" style="text-align:center">
+				<a href="https://www.hku.hk/" target="_blank"><img src="./images/hku_logo.jpg" height="35" border="0"></a>	
+				<a href="http://www.mpi-inf.mpg.de/home/" target="_blank"><img src="./images/Logo_MPII.png" height="35" border="0"></a>
+				<a href="https://www.tamu.edu/" target="_blank"><img src="./images/Texas-AM-University_logo.jpg" height="35" ="0"=""></a>
+			</div>
+
+			<div class="section head">
+
+				<h1>FIRES: Fast Imaging and 3D Reconstruction of Archaeological Sherds</h1>
+
+				<div class="authors">
+					<a href="https://jiepengwang.github.io" target="_blank">Jiepeng Wang</a><sup> 1</sup>&nbsp;&nbsp;
+					<a href="https://cong-yi.github.io/" target="_blank">Congyi Zhang</a><sup> 1</sup>&nbsp;&nbsp;
+					<a href="https://totoro97.github.io/about.html" target="_blank">Peng Wang</a><sup> 1</sup>&nbsp;&nbsp;
+					<a href="https://people.tamu.edu/~xinli/" target="_blank">Xin Li</a><sup> 3</sup>&nbsp;&nbsp;
+					<a href="https://web.edu.hku.hk/faculty-academics/pcobb">Peter J. Cobb</a><sup> 1</sup>&nbsp;&nbsp;
+					<a href="http://people.mpi-inf.mpg.de/~theobalt/" target="_blank">Christian Theobalt</a><sup>2</sup>&nbsp;&nbsp;
+					<a href="https://engineering.tamu.edu/cse/profiles/Wang-Wenping.html">Wenping Wang</a><sup> 3</sup>&nbsp;&nbsp;
+				</div>
+
+				<div class="affiliations">
+					<sup>1</sup><a href="https://www.hku.hk/" target="_blank">University of Hong Kong</a>&nbsp;&nbsp;
+					<sup>2</sup><a href="http://www.mpi-inf.mpg.de/home/" target="_blank">MPI Informatics, Saarland Informatics Campus</a>&nbsp;&nbsp;
+					<sup>3</sup><a href="https://www.tamu.edu/" target="_blank">Texas A&amp;M University</a>&nbsp;&nbsp;
+				</div>
+
+				<div class="section downloads">
+					<center>
+						<ul>
+							<li class="grid">
+								<div class="griditem">
+									<a href="https://***" target="_blank" class="imageLink"><img src="./images/pdf.png"></a><br>
+									<a href="https://***">Paper</a>
+								</div>
+							</li>
+
+							<li class="grid">
+								<div class="griditem">
+									<a href="https://github.com/jiepengwang/FIRES" target="_blank" class="imageLink"></a><img src="./images/data_ico.png"><br>
+									<a href="https://github.com/jiepengwang/FIRES">Code</a>
+								</div>
+							</li>
+						</ul>
+					</center>
+				</div>
+			</div>
+
+
+
+
+			<div class="section abstract">
+				<h1>Abstract</h1><br>
+				<div class="row" style="margin-bottom:5px">
+					<div class="col" style="text-align:center">
+						<img class="thumbnail" src="./images/teaser.png" style="width:80%; margin-bottom:20px">
+
+					</div>
+
+				</div>
+
+				<p class="text-justify">
+					Sherds, as the most common artifacts uncovered during archaeological excavations, carry rich information about past human societies so need to be accurately reconstructed and recorded digitally for analysis and preservation. Often hundreds of fragments are uncovered in a day at an archaeological excavation site, far beyond the scanning capacity of existing imaging systems. Hence, there is high demand for a desirable image acquisition system capable of imaging hundreds of fragments per day. In response to this demand, we developed a new system, dubbed FIRES, for Fast Imaging and 3D REconstruction of Sherds. The FIRES system consists of two main components. The first is an optimally designed fast image acquisition device capable of capturing over 700 sherds per day (in 8 working hours) in actual tests at an excavation site, which is one order-of-magnitude faster than existing systems. The second component is an automatic pipeline for 3D reconstruction of the sherds from the images captured by the imaging acquisition system, achieving reconstruction accuracy of 0.16𝑚𝑚. The pipeline includes a novel batch matching algorithm that matches partial 3D scans of the front and back sides of the sherds and a new ICP-type method that registers the front and back sides sharing very narrow overlapping regions. Extensive validation in labs and testing in excavation sites demonstrated that our system provides the first fast, accurate, portal, and cost-effective solution for the task of imaging and 3D reconstruction of sherds in archaeological excavations.				
+                <p></p>
+				</p>
+
+			</div>
+
+            <div class="section abstract">
+				<h1>1. Fast imaging process</h1>
+				<p class="text-justify">
+					To capture a group of fragments in a batch mode, we place them flat on the turntable, and first take a set of pictures to capture their exposed (front) sides. Then the fragments are flipped manually to photograph their back sides. 				
+                </p>
+				</p>
+
+				<div class="row" style="margin-bottom:5px">
+					<div class="col" style="text-align:center">
+						<video width="80%" playsinline="" controls autoplay loop="loop" preload="" muted="">
+						<source src="video/1_imaging.mp4" type="video/mp4">
+					</video>
+
+					</div>
+
+				</div>
+			</div>
+
+			<div class="section abstract">
+				<h1>2. Reconstruction pipeline</h1><br>
+				<p class="text-justify">
+                    Our reconstruction pipeline mainly has three steps: (1) Reconstruct partial 3D models from images; (2) Match front- and back-sides of fragments from scan batches; (3) Register the two sides of a sherd into a complete 3D model.				
+                </p>
+				</p>
+
+				<div class="row" style="margin-bottom:5px">
+					<div class="col" style="text-align:center">
+						<video width="80%" playsinline="" controls autoplay loop="loop" preload="" muted="">
+						<source src="video/2_recon_pipeline.mp4" type="video/mp4">
+					</video>
+
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="section abstract">
+				<h1>3. Dataset and reconstructed models</h1><br>
+
+                <p class="text-justify">
+                    We built a dataset containing 123 fragments of different geometries, sizes, and textures. Then we validate the proposed system with a throughput of more than 700 fragments per day on this dataset.
+                    </p>
+				</p>
+
+				<div class="row" style="margin-bottom:5px">
+					<div class="col" style="text-align:center">
+						<video width="80%" playsinline="" controls autoplay loop="loop" preload="" muted="">
+						<source src="video/3_eval.mp4" type="video/mp4">
+					</video>
+
+					</div>
+
+				</div>
+			</div>
+			
+
+			<div class="section abstract">
+				<h1>4. Deployment on the site </h1><br>
+
+                <p class="text-justify">
+                    The FIRES system was deployed for use at the excavation site of in Armenia in the summer of 2022 for two and half months.
+                </p>
+				</p>
+
+				<div class="row" style="margin-bottom:5px">
+					<div class="col" style="text-align:center">
+						<img class="thumbnail" src="./images/4_deploy.png" style="width:80%; margin-bottom:20px">
+
+					</div>
+				</div>
+				<div class="row" style="margin-bottom:5px">
+					<div class="col" style="text-align:center">
+						<video width="80%" playsinline="" controls autoplay loop="loop" preload="" muted="">
+						<source src="video/4_deploy.mp4" type="video/mp4">
+					</video>
+					<!--<h3>Scenes from the BlendedMVS dataset</h3><br>-->
+				</div>
+			</div>		
+			
+
+	
+			<div class="section list">
+				<h1>Citation</h1>
+				<div class="section bibtex">
+					<pre>@article{wang2022fires,
+    title={FIRES: Fast Imaging and 3D Reconstruction of Archaeological Sherds}, 
+    author={Wang, Jiepeng and Zhang, Congyi and Wang, Peng and Li, Xin and Cobb, Peter J. and Theobalt, Christian and Wang, Wenping},
+    journal={arXiv preprint},
+    year={2022}
+}
+				</pre></div>
+			</div>
+			
+			
+			<div class="section">
+				<hr class="smooth">
+				This page is <a href="http://www.zotero.org/" target="_blank">Zotero</a> translator friendly. 
+				<script type="text/javascript">
+					var m = "This page was last updated: " + document.lastModified;
+					var p = m.length - 9;
+					document.writeln("<left>");
+					document.write(m.substring(p, 0) + ".");
+					document.writeln("</left>");
+				</script><left>
+                    <!-- This page was last updated: 11/13/2022.</left> -->
+				<!-- <a href="https:...">Imprint</a>. <a href="https:...">Data Protection</a>. -->
+			</div>
+		</div>
+	</div>
+
+</div></body></html>

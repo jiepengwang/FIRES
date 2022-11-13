@@ -1,4 +1,4 @@
-# FIRES
+# FIRES: Fast Imaging and 3D Reconstruction of Archaeological Sherds
 We propose a new system, dubbed FIRES, for high quality and high efficiency reconstruction of archaeological fragments,  which has a high throughput of imaging over 700 sherds per day (8 working hours) with 3D reconstruction accuracy of 0.16𝑚𝑚.
 
 

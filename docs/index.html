@@ -1,9 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>FIRES: Fast Imaging and 3D Reconstruction of Archaeological Sherds </title>
+	<title>Batch-based Model Registration for Fast 3D Sherd Reconstruction </title>
 	
 	<!-- Meta tags for Zotero grab citation -->
-	<meta name="citation_title" content="FIRES: Fast Imaging and 3D Reconstruction of Archaeological Sherds">
+	<meta name="citation_title" content="Batch-based Model Registration for Fast 3D Sherd Reconstruction">
 	<meta name="citation_author" content="Wang, Jiepeng">
 	<meta name="citation_author" content="Zhang, Congyi">
 	<meta name="citation_author" content="Wang, Peng">
@@ -39,7 +39,7 @@
 
 			<div class="section head">
 
-				<h1>FIRES: Fast Imaging and 3D Reconstruction of Archaeological Sherds</h1>
+				<h1>Batch-based Model Registration for Fast 3D Sherd Reconstruction</h1>
 
 				<div class="authors">
 					<a href="https://jiepengwang.github.io" target="_blank">Jiepeng Wang</a><sup> 1</sup>&nbsp;&nbsp;
@@ -57,6 +57,10 @@
 					<sup>3</sup><a href="https://www.tamu.edu/" target="_blank">Texas A&amp;M University</a>&nbsp;&nbsp;
 				</div>
 
+				<div>
+					<h2>ICCV 2023 </h2>
+				</div>
+				
 				<div class="section downloads">
 					<center>
 						<ul>
@@ -92,8 +96,13 @@
 				</div>
 
 				<p class="text-justify">
-					Sherds, as the most common artifacts uncovered during archaeological excavations, carry rich information about past human societies so need to be accurately reconstructed and recorded digitally for analysis and preservation. Often hundreds of fragments are uncovered in a day at an archaeological excavation site, far beyond the scanning capacity of existing imaging systems. Hence, there is high demand for a desirable image acquisition system capable of imaging hundreds of fragments per day. In response to this demand, we developed a new system, dubbed FIRES, for Fast Imaging and 3D REconstruction of Sherds. The FIRES system consists of two main components. The first is an optimally designed fast image acquisition device capable of capturing over 700 sherds per day (in 8 working hours) in actual tests at an excavation site, which is one order-of-magnitude faster than existing systems. The second component is an automatic pipeline for 3D reconstruction of the sherds from the images captured by the imaging acquisition system, achieving reconstruction accuracy of 0.16𝑚𝑚. The pipeline includes a novel batch matching algorithm that matches partial 3D scans of the front and back sides of the sherds and a new ICP-type method that registers the front and back sides sharing very narrow overlapping regions. Extensive validation in labs and testing in excavation sites demonstrated that our system provides the first fast, accurate, portal, and cost-effective solution for the task of imaging and 3D reconstruction of sherds in archaeological excavations.				
-                <p></p>
+					3D reconstruction techniques have widely been used for digital documentation of archaeological fragments. However, efficient digital capture of fragments remains as a challenge. 
+					In this work, we aim to develop a portable, high-throughput, and accurate reconstruction system for efficient digitization of fragments excavated in archaeological sites. 
+					To realize high-throughput digitization of large numbers of objects, an effective strategy is to perform scanning and reconstruction in batches. 
+					However, effective batch-based scanning and reconstruction face two key challenges: 1) how to correlate partial scans of the same object from multiple batch scans, and 2) how to register and reconstruct complete models from partial scans that exhibit only small overlaps. 
+					To tackle these two challenges, we develop a new batch-based matching algorithm that pairs the front and back sides of the fragments, and a new Bilateral Boundary ICP algorithm that can register partial scans sharing very narrow overlapping regions. 
+					Extensive validation in labs and testing in excavation sites demonstrate that these designs enable efficient batch-based scanning for fragments. 
+					We show that such a batch-based scanning and reconstruction pipeline can have immediate applications on digitizing sherds in archaeological excavations.                <p></p>
 				</p>
 
 			</div>
@@ -182,13 +191,13 @@
 			<div class="section list">
 				<h1>Citation</h1>
 				<div class="section bibtex">
-					<pre>@article{wang2022fires,
-    title={FIRES: Fast Imaging and 3D Reconstruction of Archaeological Sherds}, 
+					<pre>@article{wang2023sherd,
+    title={Batch-based Model Registration for Fast 3D Sherd Reconstruction}, 
     author={Wang, Jiepeng and Zhang, Congyi and Wang, Peng and Li, Xin and Cobb, Peter J. and Theobalt, Christian and Wang, Wenping},
-    journal={arXiv preprint},
-    year={2022}
+    booktitle = {International Conference on Computer Vision (ICCV)},
+    year = {2023}                         
 }
-				</pre></div>
+		</pre></div>
 			</div>
 			
 			

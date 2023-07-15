@@ -1,1 +1,0 @@
-# FIRES: Fast Imaging and 3D Reconstruction of Archaeological Sherds

@@ -48,10 +48,11 @@ python main_piecereg.py --dir_batch [Dir_Batch] --dir_gt [Dir_GT]
 Cite as below if you find this repository is helpful to your project:
 
 ```
-@article{wang2023sherd,
-    title={Batch-based Model Registration for Fast 3D Sherd Reconstruction}, 
-    author={Wang, Jiepeng and Zhang, Congyi and Wang, Peng and Li, Xin and Cobb, Peter J. and Theobalt, Christian and Wang, Wenping},
-    booktitle = {International Conference on Computer Vision (ICCV)},
-    year = {2023}                         
+@inproceedings{wang2023sherd,
+  title={Batch-based Model Registration for Fast 3D Sherd Reconstruction},
+  author={Wang, Jiepeng and Zhang, Congyi and Wang, Peng and Li, Xin and Cobb, Peter J and Theobalt, Christian and Wang, Wenping},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={14519--14529},
+  year={2023}
 }
 ```
